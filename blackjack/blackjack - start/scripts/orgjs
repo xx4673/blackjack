@@ -1,0 +1,20 @@
+// 程式碼寫在這裡!
+$(document).ready(function(){
+    initCard();
+    initButtons();
+});
+
+function initButtons(){
+  //                  document.querySelector('#action-new-game').addEventListener.('click',function(evt){})
+  //簡化function(evt)  document.querySelector('#action-new-game').addEventListener.('click',evt=>{})
+
+  $('#action-new-game').click(evt=>{}); 
+}
+
+function initCard(){
+    // let allCards = document.querySelectorAll('.card div') ;
+    //  allCards.forEach(card=>{
+    // card.innerHTML = '☆';    
+    // });
+    $('.card div').html('☆');
+}
